@@ -1,6 +1,6 @@
 var aud = document.getElementById("introVideo");
 aud.addEventListener("ended", function() {
-  aud.setAttribute("style","display: none")
+  aud.setAttribute("style","animation: displayNone")
 });
 
 

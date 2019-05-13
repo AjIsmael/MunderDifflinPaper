@@ -7,23 +7,10 @@ body{
   min-width: 100%;
   min-height: 100%;
 }
-.hidden {
-  display: none;
-  z-index: -1;
-}
 
-.show {
-  animation: itdontwork;
-  animation-duration: 600ms;
-  opacity: 1;
-  z-index: 0;
-}
-.part1 .part2 {
-  position: absolute;
-}
-@keyframes itdontwork {
-    from {opacity:0;}
-    to {opacity:1;}
+@keyframes displayNone {
+    from {}
+    to {display:none;}
 }
 @keyframes itworked {
   from {opacity:1;}
