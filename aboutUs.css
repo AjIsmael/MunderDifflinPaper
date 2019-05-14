@@ -21,14 +21,16 @@
   font-variant: normal;
   text-transform: none;
 }
-.AboutUs {
-  background-color: rgba(192, 192, 192, 0.5);
-}
+
 .smallGrid{
   display: grid;
-  grid-template: auto / auto auto;
+  grid-template: auto / auto auto auto;
 }
 .smallGrid:hover {
   transform: scale(1.1);
+}
 
+.aboutUs {
+  background-image: url("vector1.jpg");
+  background-size: cover;
 }

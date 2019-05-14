@@ -40,3 +40,13 @@
 .active, .dot:hover {
   background-color: #717171;
 }
+
+#type {
+  height:520px;
+  background-image: url("vector1.jpg");
+  background-size: cover;
+}
+
+#typeInfo2 {
+  display: none;
+}

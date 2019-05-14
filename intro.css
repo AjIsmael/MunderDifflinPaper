@@ -17,10 +17,10 @@ video {
   }
 }
 
-.intro div{
+#intro div{
   padding-top: 10%;
 }
-.intro {
+#intro {
   background-image: url("vector2.jpg");
   background-size: cover;
   margin-bottom: 0;

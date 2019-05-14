@@ -1,0 +1,23 @@
+.contactUs {
+  background-image: url("vector2.jpg");
+  background-size: cover;
+}
+
+.contactUs h1 {
+  padding-top: 12%;
+  margin-top: 25px;
+  text-align: center;
+  padding-left: 20%;
+
+}
+.contactUs form {
+  padding-left: 10%;
+}
+.contactUs #entry {
+  width: 60%;
+  height: 45px;
+}
+.contactUs #submission {
+  width: 30%;
+  height: 52px;
+}

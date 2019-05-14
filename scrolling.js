@@ -1,7 +1,6 @@
 let sections = document.getElementsByTagName('section')
 
 window.addEventListener('scroll', function(){
-  console.log(window.scrollY)
 for (var i in sections) {
   let position = i*400
   let wrap = sections[i].children

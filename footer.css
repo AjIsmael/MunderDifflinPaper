@@ -1,13 +1,16 @@
 .footerbar {
-  display: grid;
   margin: 0;
   width: 100%;
   background-color: black;
 }
-
+.footerbar h4{
+  margin: 0;
+  text-align: center;
+  color: white;
+}
 .footerbar-top-section {
   display: grid;
-  grid-template: 100% / 14% 14% 14% 14% 14% 14%;
+  grid-template: 80% / 14% 14% 14% 14% 14% 14%;
   grid-gap:2%;
   text-align: left;
   justify-content: center;

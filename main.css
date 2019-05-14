@@ -1,6 +1,5 @@
 body{
   margin: 0;
-  /* background-color: rgba(192, 192, 192, 0.4); */
   font-family: Georgia, serif;
 }
 
@@ -12,14 +11,7 @@ body{
     from {opacity:0;}
     to {opacity:1;}
 }
-@keyframes itworked {
-  from {opacity:1;}
-  to {opacity:0;}
-}
-.hiddenagain {
-  animation: itworked;
-  animation-duration:600ms;
-}
+
 .show {
   animation: itdontwork;
   animation-duration: 600ms;
@@ -62,18 +54,6 @@ h2 {
   }
 
 }
-.type {
-  height:520px;
-  background-image: url("vector1.jpg");
-  background-size: cover;
-}
-.type h1{
-
-}
-
-#typeInfo2 {
-  display: none;
-}
 
 section {
   height: 520px;
@@ -83,27 +63,4 @@ section {
   padding-right: 10%;
   margin-top: -25px;
   border-bottom: 5px groove black;
-}
-.contactUs {
-  background-image: url("vector2.jpg");
-  background-size: cover;
-}
-
-.contactUs h1 {
-  padding-top: 12%;
-  margin-top: 25px;
-  text-align: center;
-  padding-left: 20%;
-
-}
-.contactUs form {
-  padding-left: 10%;
-}
-.contactUs #entry {
-  width: 60%;
-  height: 45px;
-}
-.contactUs #submission {
-  width: 30%;
-  height: 52px;
 }
