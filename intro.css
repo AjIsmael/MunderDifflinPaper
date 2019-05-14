@@ -1,0 +1,27 @@
+video {
+  width: 30%;
+  min-height: 70%;
+}
+#introVideo {
+  position: absolute;
+  right: 10%;
+  animation: slideRight;
+  animation-duration: 6s;
+}
+@keyframes slideRight{
+  from  {
+    left:0px;
+  }
+  to {
+    left:60%;
+  }
+}
+
+.intro div{
+  padding-top: 10%;
+}
+.intro {
+  background-image: url("vector2.jpg");
+  background-size: cover;
+  margin-bottom: 0;
+}

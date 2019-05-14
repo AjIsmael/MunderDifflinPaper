@@ -1,10 +1,12 @@
 .navbar {
-  overflow: hidden;
-  background-color: rgb(206, 206, 206, 0.4);
+  position: fixed;
+  background-color: rgb(206, 206, 206, 1);
   top: 0;
   background-image: url("logo2.png");
   background-repeat: no-repeat;
-  padding-left:30%;
+  padding-left:40%;
+  width:100%;
+  z-index: 5;
 }
 .navbar a {
   float: left;
@@ -13,8 +15,10 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  margin-left: 20px
+  margin-left: 20px;
 }
 .navbar a:hover {
   transform: scale(1.5);
+  color: green;
+  transition-duration: 2s;
 }
