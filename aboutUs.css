@@ -24,7 +24,7 @@
 
 .smallGrid{
   display: grid;
-  grid-template: auto / auto auto auto;
+  grid-template: auto / auto auto;
 }
 .smallGrid:hover {
   transform: scale(1.1);
