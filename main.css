@@ -1,18 +1,135 @@
 body{
   margin: 0;
+  background-color: rgba(192, 192, 192, 0.4);
+  font-family: Georgia, serif;
+}
+video {
+  width: 30%;
+  min-height: 70%;
+}
+h1 {
+  padding-top: 50px;
+  font-size: 50px;
+  letter-spacing: 0.2px;
+  word-spacing: 2.8px;
+  color: #24B949;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+  width: 60%;
+  animation: fadeIn;
+  animation-duration: 9s;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 0.2px;
+  word-spacing: 2.8px;
+  color: #003c00;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
 }
 #introVideo {
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  position: absolute;
+  right: 10%;
+  animation: slideRight;
+  animation-duration: 6s;
+}
+@keyframes slideRight{
+  from  {
+    left:0px; top:0px;
+  }
+  to {
+    left:60%; top:0px;
+  }
 }
 
-@keyframes displayNone {
-    from {}
-    to {display:none;}
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+
 }
-@keyframes itworked {
-  from {opacity:1;}
-  to {opacity:0;}
+.intro {
+  height: 300px;
+}
+
+.type {
+  height:500px;
+}
+.type h1{
+
+}
+
+section {
+  height: 500px;
+  position: relative;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.layout1 {
+  display:none;
+  position: absolute;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 50px;
+  display: grid;
+  grid-template: 450px / 47% 47%;
+  top: 0px;
+  left:0px;
+}
+
+.layout1 img{
+  display:inline-block;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.grid-container {
+  width: 80%;
+  padding-left: 10%;
+  display: grid;
+  grid-template: 150px 150px 150px / 32% 32% 32%;
+  grid-gap: 2%;
+  grid-row-gap: 5%;
+}
+
+.grid-container img{
+  height:150px;
+  width: 120px;
+  border: 5px groove;
+  border-radius: 12px;
+}
+.staff {
+  font-weight: bold;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.smallGrid{
+  display: grid;
+  grid-template: auto / auto auto;
 }
