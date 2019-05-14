@@ -20,5 +20,7 @@ function showSlides(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "grid";
+  slides[slideIndex-1].style.animation = "fadeIn 2.5s";
+
   dots[slideIndex-1].className += " active";
 }

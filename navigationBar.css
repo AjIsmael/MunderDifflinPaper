@@ -17,3 +17,6 @@
 .navbar a:hover {
   transform: scale(1.8);
 }
+.navbar img{
+  right: 0;
+}
