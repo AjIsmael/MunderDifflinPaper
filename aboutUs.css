@@ -30,7 +30,7 @@
   transform: scale(1.1);
 }
 
-.aboutUs {
+#aboutUs {
   background-image: url("vector1.jpg");
   background-size: cover;
 }
