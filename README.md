@@ -9,9 +9,9 @@ the page include six parts.
 5 our team
 6 footer
 
-there are seven css files each for each part to access it easily. i have used to js files for different functionalty.
+there are seven .css files each for each part to access it easily. I have used to .js files for different functionality.
 
-The reuirement of the project is
+The requirement of the project is
 ●	Complete Workshop by end of alloted time limit.
 ●	Create a wireframe drawing of the website to be handed in.
 ●	The completed assignment:
@@ -22,4 +22,3 @@ The reuirement of the project is
     ○	includes at least one useful animation on the page.
     ○	has at least one useful javascript event callback (click, hover, keydown, etc).
 ●	Group review session with the instructor.
-
